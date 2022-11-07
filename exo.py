@@ -52,7 +52,7 @@ def modulo(x, y):
     return x % y
 
 def salaireParSeconde(salaireHoraire, heureParJour, jourParAn):
-    return salaireHoraire * heureParJour * heureParJour
+    return (salaireHoraire * heureParJour * heureParJour) / (365.25 * 24 * 60 * 60)
 
 def salaireNet(brut, coef):
     return brut - brut*coef
