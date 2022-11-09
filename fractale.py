@@ -22,20 +22,20 @@ tr.speed(0)
 
 #sheesh(500, 6)
 
-for i in range(8):
-    for i in range(50):
-        tr.forward(100)
+for i in range(12):
+    for i in range(25):
+        tr.forward(50)
         tr.right(90)
         tr.forward(1)
         tr.right(90)
-        tr.forward(100)
+        tr.forward(50)
         tr.left(90)
         tr.forward(1)
         tr.left(90)
-    tr.right(45)
-tr.forward(100)
-tr.right(90)
+    tr.right(30)
 tr.forward(50)
+tr.right(90)
+tr.forward(24)
 for i in range(360):
-    tr.forward(3.1419)
+    tr.forward(2.51)
     tr.right(1)
